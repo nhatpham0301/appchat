@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="please_check_email">Please verify your account first ...</string>
+    <string name="notify_send_a_email">Registeration successfully, we\'ve sent a email, please verify your account...</string>
+</resources>

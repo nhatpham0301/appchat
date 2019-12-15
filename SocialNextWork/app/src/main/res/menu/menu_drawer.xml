@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/info"
+        android:title="Info"
+        android:icon="@drawable/ic_action_info"/>
+    <item android:id="@+id/message_wait"
+        android:title="Message wait"
+        android:icon="@drawable/ic_action_messwait"/>
+    <item android:id="@+id/friend_request"
+        android:title="Friend request"
+        android:icon="@drawable/ic_all_user"/>
+    <item android:id="@+id/block_list"
+        android:title="Block list"
+        android:icon="@drawable/ic_lock_black_24dp"/>
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_action_logout"/>
+</menu>

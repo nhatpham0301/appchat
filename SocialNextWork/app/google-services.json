@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802640898490",
+    "firebase_url": "https://socialnextwork-8ff38.firebaseio.com",
+    "project_id": "socialnextwork-8ff38",
+    "storage_bucket": "socialnextwork-8ff38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802640898490:android:85476819bf8fd758",
+        "android_client_info": {
+          "package_name": "com.example.socialnextwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802640898490-sd4fum7g1fk63eg6cs1lfi0nsm7cim8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialnextwork",
+            "certificate_hash": "ca7041fca73ae439cb013af8173ef336f0f8f322"
+          }
+        },
+        {
+          "client_id": "802640898490-dejgkr4162rsdgminina1kkkojigqc4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLtuJcAjyFV8Js1Ck7TbDAma2DAAYVBgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802640898490-dejgkr4162rsdgminina1kkkojigqc4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_chat"
+        android:title="Chats"
+        android:icon="@drawable/ic_chat_black" />
+    <item android:id="@+id/nav_friend_list"
+        android:title="Friends"
+        android:icon="@drawable/ic_user_black" />
+    <item android:id="@+id/nav_user"
+        android:title="User"
+        android:icon="@drawable/ic_all_user" />
+</menu>

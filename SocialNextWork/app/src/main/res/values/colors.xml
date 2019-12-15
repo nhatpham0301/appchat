@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorProfilePrimary">#49BEFF</color>
+    <color name="colorProfilePrimaryDark">#65DCE5</color>
+    <color name="colorProfileAccent">#0D5D98</color>
+    <color name="colorProfileAddress">#2F7092</color>
+    <color name="colorProfileFollowers">#65DCE5</color>
+    <color name="colorProfileHeadings">#3797CF</color>
+    <color name="colorProfileSolidCircle">#AAFFFFFF</color>
+    <color name="colorProfilecircleBorder">#30FFFFFF</color>
+    <color name="colorProfilegradEnd">#67EFC8</color>
+    <color name="colorProfilegradStart">#63C9FF</color>
+    <color name="colorProfilefollowersBg">#65DCE5</color>
+    <color name="colorProfilefollowingBg">#49BEFF</color>
+    <color name="colorProfileGrey">#E5E5E5</color>
+</resources>

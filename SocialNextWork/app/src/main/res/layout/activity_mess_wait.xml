@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.MessWait">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewMessWait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txtMessWait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No message wait"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>

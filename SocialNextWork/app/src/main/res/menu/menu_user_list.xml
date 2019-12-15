@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_friend"
+        android:title="Add friend"
+        android:visible="true"/>
+    <item android:id="@+id/cancel_add_friend"
+        android:title="Cancel add friend"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/accept_add_friend"
+        android:title="Accept add friend"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/delete_friend_request"
+        android:title="Delete friend request"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/block"
+        android:title="Block"/>
+
+    <item
+        android:id="@+id/unlock"
+        android:title="Unlock"/>
+        //android:visible="false"/>
+</menu>
