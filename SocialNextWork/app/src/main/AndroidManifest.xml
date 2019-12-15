@@ -13,23 +13,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activitys.MyProfileActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".activitys.MessWait"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.BlockListActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.FriendRequestActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.StickerSelect"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".activitys.ShowDown_Image"></activity>
+        <activity
+            android:name=".activitys.MyProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".activitys.MessWait"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.BlockListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.FriendRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.StickerSelect"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activitys.Chat"
-            android:theme="@style/AppThemeNo"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.Login"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".activitys.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,10 +50,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitys.Register"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activitys.Profile"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activitys.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.Profile"
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".notifications.FirebaseService"

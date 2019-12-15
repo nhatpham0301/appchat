@@ -41,6 +41,7 @@ import com.example.socialnextwork.fragments.FriendsFragment;
 import com.example.socialnextwork.fragments.UserFragment;
 import com.example.socialnextwork.models.ModelUsers;
 import com.example.socialnextwork.notifications.Token;
+import com.facebook.login.LoginManager;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -662,6 +663,7 @@ public class Profile extends AppCompatActivity implements NavigationView.OnNavig
                 startActivity(intentBlockList);
                 break;
             case R.id.logout:
+                LoginManager.getInstance().logOut();
                 PublicFunctions.showStatus("offline");
                 FirebaseAuth.getInstance().signOut();
                 checkUserStatus();

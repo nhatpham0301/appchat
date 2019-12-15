@@ -3,6 +3,7 @@ package com.example.socialnextwork.adapters;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateFormat;
@@ -17,6 +18,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.socialnextwork.R;
+import com.example.socialnextwork.activitys.ShowDown_Image;
 import com.example.socialnextwork.models.ModelChat;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -225,6 +227,15 @@ public class AdapterChat extends RecyclerView.Adapter<AdapterChat.MyHolder>{
         else {
             myHolder.txtSeenImage.setVisibility(View.GONE);
         }
+
+        myHolder.imaChatPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, ShowDown_Image.class);
+                intent.putExtra("Image_Url", chatlist.get(i).getMessage());
+                context.startActivity(intent);
+            }
+        });
 
     }
 
